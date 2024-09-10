@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai-course"
+version = "0.1.0"
+description = ""
+authors = ["Vishwas Gowda <vishwas.g217@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.5.34"
+mkdocs-awesome-pages-plugin = "^2.9.3"
+mkdocs-jupyter = "^0.25.0"
+openai = "^1.44.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

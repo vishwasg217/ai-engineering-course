@@ -1,0 +1,58 @@
+site_name: Vishwas Gowda
+repo_name: vishwasg217/website
+repo_url: https://github.com/vishwasg217/website
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: black
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode    
+      primary: black
+      accent: lime
+
+plugins:
+  - search
+  - awesome-pages
+  - mkdocs-jupyter:
+      include_source: true
+      execute: true
+  
+nav:
+  - Home: index.md
+  - AI Course: 
+    - Get Started: ai-course/index.md
+    - Introduction to LLMs:
+      - Introduction To Transformers: ai-course/module-1/intro-to-transformers.md
+      - Breakdown Of Transformers: ai-course/module-1/breakdown-of-transformers.md
+      - NLP Before Transformers: ai-course/module-1/nlp-before-transformers.md
+    - Prompt Engineering:
+      - Introduction: ai-course/module-2/introduction.ipynb
+
+markdown_extensions: 
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/vishwasg217
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/imvishwas_g
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/vishwasgowda217/
+
+copyright: Copyright &copy; 2024 Vishwas Gowda
