@@ -12,6 +12,7 @@ mkdocs-material = "^9.5.34"
 mkdocs-awesome-pages-plugin = "^2.9.3"
 mkdocs-jupyter = "^0.25.0"
 openai = "^1.44.1"
+python-dotenv = "^1.0.1"
 
 
 [build-system]

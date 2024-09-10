@@ -26,7 +26,6 @@ plugins:
   - awesome-pages
   - mkdocs-jupyter:
       include_source: true
-      execute: true
   
 nav:
   - Home: index.md
