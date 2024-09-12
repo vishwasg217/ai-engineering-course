@@ -28,15 +28,13 @@ plugins:
       include_source: true
   
 nav:
-  - Home: index.md
-  - AI Course: 
-    - Get Started: ai-course/index.md
-    - Introduction to LLMs:
-      - Introduction To Transformers: ai-course/module-1/intro-to-transformers.md
-      - Breakdown Of Transformers: ai-course/module-1/breakdown-of-transformers.md
-      - NLP Before Transformers: ai-course/module-1/nlp-before-transformers.md
-    - Prompt Engineering:
-      - Introduction: ai-course/module-2/introduction.ipynb
+  - Get Started: index.md
+  - Introduction to LLMs:
+    - Introduction To Transformers: module-1/intro-to-transformers.md
+    - Breakdown Of Transformers: module-1/breakdown-of-transformers.md
+    - NLP Before Transformers: module-1/nlp-before-transformers.md
+  - Prompt Engineering:
+    - Introduction: module-2/introduction.ipynb
 
 markdown_extensions: 
   - toc:

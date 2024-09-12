@@ -1,3 +1,1 @@
-# Welcome
-
-## AI Engineering Course
+# AI Course
