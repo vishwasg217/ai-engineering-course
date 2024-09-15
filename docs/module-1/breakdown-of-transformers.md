@@ -1,6 +1,7 @@
 # Breakdown of Transformers
 
 Transformers have become the backbone of many modern NLP tasks due to their innovative architecture. Here’s a breakdown of the key components that make them powerful and versatile.
+
 ## 1. Embeddings
 
 Embeddings are a way to convert words or tokens into numerical vectors that transformers can process. In NLP, words need to be transformed into a format that a model can work with, and embeddings serve this purpose. Technically, an embedding is a dense vector representation of a word in a continuous vector space, where similar words have closer representations. The idea is to capture semantic meanings and relationships between words. In transformers, the input tokens are first mapped to their corresponding embeddings using a pre-trained embedding layer or through training from scratch.
@@ -24,10 +25,12 @@ Here, \(Q\) (Query), \(K\) (Key), and \(V\) (Value) are matrices derived from th
 The self-attention mechanism in transformers means each token attends to every other token, including itself. This results in capturing dependencies regardless of their distance in the input sequence, which is a massive advantage over models like RNNs that struggle with long-range dependencies. Multi-head attention is an extension of this mechanism, where the model learns different aspects of the input through multiple sets of queries, keys, and values, enhancing the model’s ability to capture various linguistic features.
 
 **Advantages and Disadvantages:**
+
 - **Advantages**: Enables parallel processing, captures complex dependencies, and significantly improves context understanding.
 - **Disadvantages**: Computationally intensive, especially as sequence length grows, due to the need to calculate attention scores between all token pairs.
 
-**Examples of Use**: 
+**Examples of Use**:
+
 - In machine translation, attention helps the model focus on the relevant parts of the source sentence for each word it generates in the target sentence.
 - In text generation, attention ensures that the generated text remains contextually coherent by maintaining focus on pertinent parts of the input.
 
@@ -43,7 +46,7 @@ Each transformer layer includes a feed-forward neural network applied to each po
 \text{FFN}(x) = \max(0, xW_1 + b_1)W_2 + b_2
 \]
 
-where \(W_1, W_2\) are weight matrices, and \(b_1, b_2\) are biases. This feed-forward step allows the model to mix information across different dimensions and add non-linearity, which is crucial for complex decision boundaries. Since the same feed-forward network is applied at every position, it maintains the parallel nature of the transformer architecture. 
+where \(W_1, W_2\) are weight matrices, and \(b_1, b_2\) are biases. This feed-forward step allows the model to mix information across different dimensions and add non-linearity, which is crucial for complex decision boundaries. Since the same feed-forward network is applied at every position, it maintains the parallel nature of the transformer architecture.
 
 **Advantages**: Efficient parallel processing, simple to implement, and provides a non-linear transformation that enriches the learned representations.
 
