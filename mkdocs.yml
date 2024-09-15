@@ -1,6 +1,6 @@
-site_name: Vishwas Gowda
-repo_name: vishwasg217/website
-repo_url: https://github.com/vishwasg217/website
+site_name: AI Engineering Course
+repo_name: vishwasg217/ai-course
+repo_url: https://github.com/vishwasg217/ai-course
 theme:
   name: material
   features:
@@ -35,6 +35,10 @@ nav:
     - NLP Before Transformers: module-1/nlp-before-transformers.md
   - Prompt Engineering:
     - Introduction: module-2/introduction.ipynb
+    - Prompting Techniques: module-2/prompting_techniques.ipynb
+    - Advance Prompting Techniques: 
+      - Function Calling: module-2/advance-prompting-techniques/function_calling.ipynb
+      - Structured Outputs: module-2/advance-prompting-techniques/structured_outputs.ipynb
 
 markdown_extensions: 
   - toc:
