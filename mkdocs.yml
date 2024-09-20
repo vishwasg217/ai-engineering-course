@@ -39,6 +39,11 @@ nav:
     - Advance Prompting Techniques: 
       - Function Calling: module-2/advance-prompting-techniques/function_calling.ipynb
       - Structured Outputs: module-2/advance-prompting-techniques/structured_outputs.ipynb
+  - Retrieval Augmented Generation:
+    - Vector Embeddings: 
+      - Introduction: module-3/vector-embeddings/intro.md
+      - Retrieval Augmented Generation: docs/module-3/vector-embeddings/similarity_measures.ipynb
+      - Vector Databases: module-3/vector-embeddings/vector_dbs.ipynb
 
 markdown_extensions: 
   - toc:
