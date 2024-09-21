@@ -1,0 +1,95 @@
+[
+
+    {
+        "title": "Machine Learning",
+        "body": "Machine learning is a subset of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.",
+        "date": "2021-10-01T00:00:00Z",
+        "category": "ML",
+        "author": "Towards Data Science"
+    },
+    {
+        "title": "Data Structures",
+        "body": "Data structures are ways of organizing and storing data so that they can be accessed and worked with efficiently. Common types include arrays, linked lists, stacks, queues, and trees. Understanding data structures is crucial in optimizing algorithms and improving the performance of programs.",
+        "date": "2022-03-12T00:00:00Z",
+        "category": "Computer Science",
+        "author": "GeeksForGeeks"
+    },
+    {
+        "title": "Algorithms",
+        "body": "Algorithms are step-by-step instructions or rules designed to perform a task or solve a problem. They are the backbone of computer science, ranging from simple tasks like sorting numbers to more complex operations like machine learning. Efficient algorithms help in saving computational resources.",
+        "date": "2021-12-05T00:00:00Z",
+        "category": "Computer Science",
+        "author": "Towards Data Science"
+    },
+    {
+        "title": "Object-Oriented Programming",
+        "body": "Object-oriented programming (OOP) is a paradigm based on the concept of 'objects', which can contain data and code. The four key principles of OOP are encapsulation, abstraction, inheritance, and polymorphism. This approach helps in structuring complex software programs for better reusability and maintainability.",
+        "date": "2023-01-15T00:00:00Z",
+        "category": "Programming",
+        "author": "Codecademy"
+    },
+    {
+        "title": "Big Data",
+        "body": "Big data refers to extremely large datasets that are difficult to process using traditional methods. The data can be structured, semi-structured, or unstructured. Techniques like Hadoop and Spark are used to analyze and extract useful information from these massive datasets, leading to insights in various fields like business, healthcare, and technology.",
+        "date": "2021-11-20T00:00:00Z",
+        "category": "Data Science",
+        "author": "KDnuggets"
+    },
+    {
+        "title": "Cryptography",
+        "body": "Cryptography is the study and practice of securing communication and data from unauthorized access. It involves techniques like encryption, where information is converted into unreadable code, and decryption, where that code is transformed back into its original form. Cryptography is essential for maintaining privacy and security in digital communication.",
+        "date": "2022-08-25T00:00:00Z",
+        "category": "Cybersecurity",
+        "author": "TechCrunch"
+    },
+    {
+        "title": "Web Development Fundamentals",
+        "body": "Web development encompasses the building and maintenance of websites. It includes aspects such as web design, web content development, client-side/server-side scripting, and network security configuration. Understanding HTML, CSS, and JavaScript is essential for creating interactive and responsive web applications. As technology evolves, modern web frameworks like React, Angular, and Vue.js are becoming popular for building dynamic user interfaces.",
+        "date": "2023-02-18T00:00:00Z",
+        "category": "Web Development",
+        "author": "MDN Web Docs"
+    },
+    {
+        "title": "Introduction to Deep Learning",
+        "body": "Deep learning is a subset of machine learning that uses neural networks with many layers to analyze various forms of data. It excels in tasks such as image recognition, natural language processing, and game playing. By processing data through multiple layers of abstraction, deep learning models can learn to represent complex patterns. Popular frameworks like TensorFlow and PyTorch have made it easier for developers to build and deploy deep learning models.",
+        "date": "2022-07-10T00:00:00Z",
+        "category": "ML",
+        "author": "Towards Data Science"
+    },
+    {
+        "title": "Machine Learning Basics",
+        "body": "Machine learning is a branch of artificial intelligence that focuses on building systems that can learn from and make decisions based on data. Unlike traditional programming, where explicit instructions are given, machine learning algorithms adapt their behavior based on the input data. This adaptability makes them useful in various applications, from recommending products to detecting fraud.",
+        "date": "2023-03-05T00:00:00Z",
+        "category": "ML",
+        "author": "Analytics Vidhya"
+    },
+    {
+        "title": "Understanding Hash Tables",
+        "body": "Hash tables are a data structure that implements an associative array, a structure that can map keys to values. They use a hash function to compute an index into an array of buckets or slots, from which the desired value can be found. Hash tables offer fast data retrieval, but they require careful handling of collisions, which can occur when two keys hash to the same index.",
+        "date": "2022-10-15T00:00:00Z",
+        "category": "Computer Science",
+        "author": "GeeksForGeeks"
+    },
+    {
+        "title": "RESTful API Design",
+        "body": "RESTful APIs are an architectural style for designing networked applications. They rely on stateless, client-server communication and use standard HTTP methods like GET, POST, PUT, and DELETE. A well-designed RESTful API is easy to use, scalable, and adheres to principles that enable it to be stateless and cacheable. This makes it a popular choice for building web services.",
+        "date": "2023-04-10T00:00:00Z",
+        "category": "Web Development",
+        "author": "Smashing Magazine"
+    },
+    {
+        "title": "Neural Networks Explained",
+        "body": "Neural networks are a series of algorithms that attempt to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. They consist of layers of interconnected nodes or 'neurons' that process input data and generate outputs. Neural networks are fundamental to deep learning and have applications in image and speech recognition, natural language processing, and more.",
+        "date": "2023-01-28T00:00:00Z",
+        "category": "ML",
+        "author": "Towards Data Science"
+    },
+    {
+        "title": "The Importance of Cybersecurity",
+        "body": "Cybersecurity involves protecting computer systems and networks from information disclosure, theft, or damage. It encompasses various practices, including network security, application security, and information security. As cyber threats become more sophisticated, the need for robust cybersecurity measures has become critical for individuals and organizations to safeguard sensitive information and maintain trust.",
+        "date": "2022-12-12T00:00:00Z",
+        "category": "Cybersecurity",
+        "author": "Krebs on Security"
+    }
+]
+
