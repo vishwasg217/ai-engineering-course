@@ -11,14 +11,14 @@
         "title": "Data Structures",
         "body": "Data structures are ways of organizing and storing data so that they can be accessed and worked with efficiently. Common types include arrays, linked lists, stacks, queues, and trees. Understanding data structures is crucial in optimizing algorithms and improving the performance of programs.",
         "date": "2022-03-12T00:00:00Z",
-        "category": "Computer Science",
+        "category": "Programming",
         "author": "GeeksForGeeks"
     },
     {
         "title": "Algorithms",
         "body": "Algorithms are step-by-step instructions or rules designed to perform a task or solve a problem. They are the backbone of computer science, ranging from simple tasks like sorting numbers to more complex operations like machine learning. Efficient algorithms help in saving computational resources.",
         "date": "2021-12-05T00:00:00Z",
-        "category": "Computer Science",
+        "category": "Programming",
         "author": "Towards Data Science"
     },
     {
@@ -67,7 +67,7 @@
         "title": "Understanding Hash Tables",
         "body": "Hash tables are a data structure that implements an associative array, a structure that can map keys to values. They use a hash function to compute an index into an array of buckets or slots, from which the desired value can be found. Hash tables offer fast data retrieval, but they require careful handling of collisions, which can occur when two keys hash to the same index.",
         "date": "2022-10-15T00:00:00Z",
-        "category": "Computer Science",
+        "category": "Programming",
         "author": "GeeksForGeeks"
     },
     {
