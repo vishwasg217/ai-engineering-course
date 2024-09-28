@@ -19,6 +19,7 @@ lxml = "^5.3.0"
 langchain-experimental = "^0.3.0"
 langchain-openai = "^0.2.0"
 cohere = "^5.10.0"
+pandas = "^2.2.3"
 
 
 [build-system]
