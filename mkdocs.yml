@@ -47,6 +47,7 @@ nav:
     - Chunking Strategies: module-3/chunking_strategies.ipynb
     - Retrieval Strategies: module-3/retrieval_strategies.ipynb
     - Pre-Retrieval Strategies: module-3/pre_retrieval_strategies.ipynb
+    - Post-Retrieval Strategies: module-3/post_retrieval_strategies.ipynb
 markdown_extensions: 
   - toc:
       permalink: true
